@@ -45,6 +45,7 @@ export default function Component({ user, token }) {
             >
               <FormControl id="message" mt={1}>
                 <Input
+                autocomplete="off"
                   placeholder="Write a message."
                   mt={1}
                   rows={3}
